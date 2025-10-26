@@ -14,6 +14,8 @@ module.exports = {
         },
         cream: '#FFF8F0',
         darkGreen: '#006837',
+        foreground: '#1a1a1a', // Added: Define foreground color for text-foreground utility
+        background: '#FFFFFF', // Added: Define background color
       },
       fontFamily: {
         sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif'],
