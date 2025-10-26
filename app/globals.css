@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 10%;
+  }
+  
+  body {
+    @apply bg-cream text-foreground;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer utilities {
+  .prose-italian h2 {
+    @apply text-2xl font-serif font-bold text-italian-green mt-8 mb-4;
+  }
+  
+  .prose-italian h3 {
+    @apply text-xl font-serif font-semibold text-darkGreen mt-6 mb-3;
+  }
+  
+  .prose-italian p {
+    @apply mb-4 leading-relaxed;
+  }
+  
+  .prose-italian ul {
+    @apply list-disc list-inside mb-4 space-y-2;
+  }
+  
+  .prose-italian strong {
+    @apply font-semibold text-italian-green;
+  }
+}
