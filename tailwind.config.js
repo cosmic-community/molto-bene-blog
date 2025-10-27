@@ -14,12 +14,15 @@ module.exports = {
         },
         cream: '#FFF8F0',
         darkGreen: '#006837',
-        foreground: '#1a1a1a', // Added: Define foreground color for text-foreground utility
-        background: '#FFFFFF', // Added: Define background color
+        foreground: '#1a1a1a',
+        background: '#FFFFFF',
       },
       fontFamily: {
         sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif'],
         serif: ['Playfair Display', 'Georgia', 'serif'],
+      },
+      boxShadow: {
+        '2xl': '0 25px 50px -12px rgba(0, 140, 69, 0.25)',
       },
     },
   },

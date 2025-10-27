@@ -10,6 +10,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'cdn.cosmicjs.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
     ],
   },
   typescript: {
